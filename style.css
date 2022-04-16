@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: 'Anek Gujarati', sans-serif;
+}
+header{
+    background: url(./img/1_chi\ rasm.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+}
+
+.list{
+    display: flex;
+    justify-content: space-between;
+}
+.list .list_item a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+}
+.list .list_item a:hover{
+    color: indigo;
+    transition: .5s;
+}
+.header_bottom{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 150px;
+
+}
+.header_text{
+    font-style: 600;
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 55px;
+    color: #fff;
+}
+.header_info{
+    font-style:400 ;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #fff;
+    margin-bottom: 80px;
+   
+}
+.btn_header{
+    font-style: normal;
+    font-weight:600 ;
+    font-size: 18px;
+    padding: 10px 30px;
+    background: linear-gradient(90deg, #5D00FA 0%, #D70BCA 100%);
+    border-radius: 46px;
+    border: none;
+    color: #fff;
+    margin-bottom: 160px;
+}
+
+
+/* *************************section start1 ************** */
+.section1{
+    background:blueviolet;
+    display: flex;
+    justify-content: center;
+}
+.section_info{
+    color: #fff;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    padding-top: 90px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.card{
+    padding: 20px;
+    background: #8201cc;
+    border-radius: 10px;
+    margin-bottom: 160px;
+}
+.section_title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    text-align:center ;
+    color: #fff;
+    padding-bottom: 65px;
+    padding-top: 12px;
+}
+.cart_parce{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    text-align:center ;
+    color: #fff;
+}
+.btn_cart{
+    font-style: normal;
+    font-size: 18px;
+    padding: 14px 14px;
+    background: linear-gradient(90deg, #5ca2f3 0%, #D70BCA 100%);
+    border-radius: 46px;
+    border: none;
+    color: #fff;
+    line-height: 19px;
+    font-weight: 600;
+}
+
